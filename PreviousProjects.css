@@ -1,0 +1,76 @@
+ body {
+    background-color: lightsteelblue;
+    animation: animate 5s infinite;
+}
+@keyframes animate {
+    from {background-color: lightsteelblue;}
+    to {background-color: lightslategrey;}
+}
+h1 {
+    color: ghostwhite;
+    text-align: center;
+}
+
+.subheadings {
+    font-size: 35px
+}
+p {
+    color: ghostwhite;
+    text-align: left;
+    font-size: 25px;
+}
+/* links */
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float:left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a:link, a:visited {
+    font-size: 30px;
+    color: ghostwhite;
+
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    border: 2px solid black;
+    color: white;
+}
+/* cool animation */
+div {
+    width: 50px;
+    height: 50px;
+    
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    0%   { left:0px; top:0px;}
+    25%  { left:75%; top:0px;}
+    50%  { left:0px; top:0px;}
+    75%  { left:0px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+img {
+    height: 500%;
+    width: 1000%;
+
+}
+
+
+
+
+

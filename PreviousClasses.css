@@ -1,0 +1,46 @@
+
+
+html, body {
+    height: 100%;
+    background-image: linear-gradient(blue, green);
+
+}
+h1 {
+    color: ghostwhite;
+    text-align: center;
+}
+p {
+    color: ghostwhite;
+    text-align: center;
+    font-size: 40px;
+}
+.full-height {
+    height: 100%
+}
+/* links */
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float:left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a:link, a:visited {
+    font-size: 30px;
+    color: ghostwhite;
+
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    border: 2px solid black;
+    color: white;
+}

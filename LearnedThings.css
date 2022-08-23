@@ -1,0 +1,50 @@
+body {
+    background-color: lightsteelblue;
+    animation: animate 5s infinite;
+}
+@keyframes animate {
+    from {background-color: lightsteelblue;}
+    to {background-color: lightslategrey;}
+}
+h1 {
+    color: ghostwhite;
+    text-align: center;
+}
+.subheadings{
+    font-size: 35px
+}
+p {
+    color: ghostwhite;
+    text-align: left;
+    font-size: 25px;
+}
+
+/* links */
+
+ul {
+
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+li {
+    float:left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a:link, a:visited {
+    font-size: 30px;
+    color: ghostwhite;
+
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    border: 2px solid black;
+    color: white;
+}
