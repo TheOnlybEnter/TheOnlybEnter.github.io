@@ -1,0 +1,47 @@
+
+
+html, body {
+    height: 100%;
+    background-image: linear-gradient(blue, green);
+
+}
+h1 {
+    color: ghostwhite;
+    text-align: center;
+}
+p {
+    color: ghostwhite;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.full-height {
+    height: 100%
+}
+/* links */
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float:left;
+    padding-right: 5%;
+}
+
+a:link, a:visited {
+    font-size: 125%;
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    font-weight: bold;
+    color: black;
+}
+.github {
+    padding-top: 30%;
+    text-align: center;
+}

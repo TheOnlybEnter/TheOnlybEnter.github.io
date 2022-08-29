@@ -1,0 +1,55 @@
+body {
+    background-color: lightsteelblue;
+}
+h1, h3 {
+    color: ghostwhite;
+    text-align: center;
+}
+
+/* paragraph */
+.intro, .first, .second, .third, .fifth{ /*for pragraphs*/
+    word-spacing: 2px;
+    font-size: 20px;    
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 5px;
+    text-indent: 5%;
+    line-height: 120%;
+    color: ghostwhite;
+    float: left;
+    position: relative; /* keeps text in margin*/ 
+}
+
+/* links */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float:left;
+    padding-right: 5%;
+}
+
+a:link, a:visited {
+    font-size: 110%;
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    font-weight: bold;
+    color: black;
+}
+.sources {
+    font-size: 110%;
+    padding-top: 10px;
+    text-align: center;
+    color: ghostwhite;
+}
+.citation {
+    font-size: 30px;
+    padding-top: 50%;
+    text-align: center;
+    color: ghostwhite;
+}
