@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Fingerprints" content="This page is about security">
+    
+    <title>Matt's Portfolio</title>
+    <link rel="stylesheet" href="EssayFormat.css"> 
+  </head>
+  <body>
+
+    <ul>
+      <li> <a href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/CS-II/Essays/Essays.html"> Back to previous page </a> </li>
+    </ul>
+    <h1> Website Security</h1>
+    <h3> By: Matthew Roman</h3>
+    <h3> 1st Class CSII</h3>
+    <h3> 28/8/2022 </h3>
+    <!-- web browser- software used to browse the internet and display pages, web server- computer that runs websites, -->
+    <!-- web server is to store, process and deliver web pages to the users which the intercommunication is done through http -->
+    <!-- fingerprint function is another name for hash function-->
+    <div class="intro">
+      The Internet is a way for information to flow around. However, with all this information flowing around how do we know that we are connected to the <b>REAL</b> deal? Websites are easy to make, so there must be some sort of security for the connection between a web browser and web server to ensure that our information is safe. First let's go over how websites work.
+    </div>
+
+    <div class="first">
+      
+      A web browser is the software we use to browse the internet, like Google. A web server is computer software that accepts requests via <b>HTTP/HTTPS</b>. <b> HTTP </b> was the original way for web browsers and web servers to communicate. However, as people started using the internet more frequently <b> HTTP </b> would eventually become outdated as it wasn't secure enough for its users. This is why <b> HTTPS </b> was made. There are two purposes of using <b> HTTPS </b>, one is for privacy(encryption) and another for security(authentication). In a simple meaning it was to secure data transfering from the user to the website. <b> HTTPS </b> was so secure it was essentially refered to as the "going dark" time in technology(Gibson, 2020). In response to this <b>HTTPS Proxy Appliance </b> was made, which is a device which is used to monitor the actions of users. We must first know that a <b>CA</b>(certificate authority) is a orginization who websites verify themselves and their identity, this would help with security for users and organizations. To subvert it all a institution had to do was install a <b>Pseudo Certificate Authority</b>. The way it works is when anyone makes a secure connection in the institutions network it gets intercepeted by the providers <b>Proxy Appliance</b>, which then makes an impersonation using the <b>PSA</b> to sign the false web server certificate it made. 
+    </div>
+
+    <div class="second">
+      A <b> MITM </b>(man in the middle) is a were the attacker can alter communication between two parties. This would mean that rather than connecting to the site they are actually connected to the attacker who is either evesdropping or impersonating. For the user this would cause their personal information leaked which is extremely dangerous. This is exactly what a <b> Proxy Appliance</b> does. A client may want to connect with the internet but the <b> MITM </b>(Proxy Appliance) cuts that off essentially doing what was just explained in the previous paragarph. 
+    </div>
+
+    <div class="third">
+      Sadly, as (Gibson, 2020) says this SSL interception can not be stopped however we can detect it. Hashes are mathematical algorithims which provide secure communication.  When a cryptographic hash fingerprints a certificate any change to it will result in a different fingerprint. <b> SSL Proxy</b> has to provide a spoofed certificate containing a public key which is matching with the private key, and private keys aren't the same as the remote server certificate(Gibson, 2020). This means no matter how much a <b> SSL Proxy </b> will try to copy a remotes servers certificate it will be impossible to do it. This will easily be seen through a web browsers UI. We must be careful though! We might try to compare the certificate fingerprints on huge websites that will most likely use a different connection. This would then result in the user thinking that their connection is intercepted when it's not. In other words it's like flaging a file as malicious when it’s not(Arntz, 2017). That is what is called <b> False-positive</b>. <b> False-negative</b> would be like saying it does NOT contain a virus, but it actually does. 
+
+    </div>
+
+    <div class="fifth"> 
+      Privacy is a major topic these days. I believe that no one should have access to private information unless they are given the task of handling such matters from higher authorities. Services provided by institutions such as computers, tablets, internet, and other things are allowed to be watched or evesdropped. Anything connected with their services is able to be monitored by them becuase it's their services. Outside of their network they can monitor anything that's considered their device but not other devices. Lastly institutions do not have the right to force downloads of their programs on peoples personal devices without consent. 
+    </div>
+
+    <div class="flowcharts">
+    </div> 
+
+    <div class="citation">
+      Sources
+    </div>
+    <div class="sources">
+      <a href="https://www.malwarebytes.com/blog/news/2017/09/explained-false-positives">
+	Pieter Arntz(2017). Explained: False positives <br> Malwarebytes Labs<br>
+      </a>
+      <a href="https://www.grc.com/fingerprints.htm">
+	Steve Gibson(2020). Fingerprints.<br> Gibson Research Corporation. <br>
+      </a>
+    </div>
+
+  </body>
+</html>
