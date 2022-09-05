@@ -7,11 +7,11 @@ h1, h3 {
 }
 
 /* paragraph */
-.intro, .first, .second, .third, .fifth{ /*for pragraphs*/
+.intro, .first, .second, .third, .fifth { /*for pragraphs*/
     word-spacing: 2px;
     font-size: 20px;    
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     padding: 5px;
     text-indent: 5%;
     line-height: 120%;
@@ -47,11 +47,14 @@ a:hover, a:active {
     text-align: center;
     color: black;
 }
-.flowcharts {
-}
+
 .citation {
     font-size: 30px;
     padding-top: 50%;
     text-align: center;
     color: black;
 }
+
+
+    
+    
