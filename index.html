@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About me page">
     <title>Matt's Portfolio</title>
     <link rel="stylesheet" href="FormatOne.css"> 
   </head>
   <body>
 
-    <ul>
-      <li> <a href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/index.html"> About Me</a> </li>
-      <li> <a href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/PortfolioImportance.html">  Why did I write this portfolio? </a> </li>
-      <li> <a href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/PreviousClasses.html"> Classes I have done </a> </li>
-      <li> <a href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/PreviousProjects.html"> Projects I did </a> </li>
-      <li> <a href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/Essays.html"> Essays </a> </li>
+    
+    <ul class="nav">
+      <li> <a  href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/index.html"> About Me</a> </li>
+      <li> <a  href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/PreviousClasses.html"> Former Courses </a> </li>
+      <li> <a  href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/Projects%20Page.html"> Projects </a > </li>
+      <li> <a  href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/Essays.html"> Essays </a> </li>
     </ul>
     <h1>About Matt </h1>
-    
 
-    <p> My name is Matt. I'm a student at Allen HighSchool and am learning to program. I'm a Junior and in CSII.
-      <br> Outside of school I don't do much but play games or school work. I persue this career because I enjoy the idea of creating and solving.<br>
+
+
+    <p> My name is Matt. I'm a student at Allen HighSchool and am currently enrolled in computer science.
+      <br> My interest first began with Call of Duty. I was always interested how AAA games were made.<br>
+      Although I still hardly know about how these games even work, I watched a small youtuber who goes by <a href="https://www.youtube.com/user/JohnyJ25">JohnnyJ25</a> who would every once in a while make videos about Call Of Duty.
+      <br> One topic he broguht out was Call of Duties zombie mode which contains a Round change. To start off zombie's health is represented by a 32-bit integers which is between 2,147,483,647 and -2,147,483,647. Health continously gets larger as rounds go by, but thats not the case after round 163. This is value exceeds on round 163 hence the first Insta Kill Round <b>(a term coined by the Zombies Community, after zombie health is bugged)</b>. If the result of an arithmetic operation falls outside the 32-bit integral it causes overflow. Now this does not mean that overflow is the issue but rather the produced side affect of a negative value is. Also note that since it can be both positive and negative, insta kill rounds wont always happen. So with this negative value, the health is so low that you could one shot the zombie. Of course this is different in newer CoD's becuase if I remember zombie health is now represented by a 64-bit, and the rounds are capped at 255 to stop the previous issue the game had. Overall, interesting things like this is what got me into Computer Science.
     </p>
-    
+
+    <h1> Why write a Digital Portfolio?</h1>
+    <p>
+      This Digital Portfolio is important because I can document topics I discover such as the one above, and I can share experiences I've had in my computer science course. It's literally like a diary except anyone can see it! With digital Portfolios you can show everyone your interests and mistakes that they can learn from.
+      <br> Personally me I really like how games work. <br>
+    </p>
+
     <div class="github">
-      <a href="https://theonlybenter.github.io">  THIS WEBSITE LIVES AT </a>
+      <a class="link" href="https://theonlybenter.github.io">  THIS WEBSITE LIVES AT </a>
     </div>
   </body>
 </html>

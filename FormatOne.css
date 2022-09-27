@@ -1,13 +1,14 @@
-
-
 html, body {
     height: 100%;
-    background-image: linear-gradient(blue, green);
-
+    background-color: grey;
+    margin: 0px;
 }
 h1 {
     color: ghostwhite;
     text-align: center;
+}
+h2 {
+    color: ghostwhite;    
 }
 p {
     color: ghostwhite;
@@ -21,27 +22,44 @@ p {
 }
 /* links */
 
-ul {
+ul.nav {
     list-style-type: none;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
 }
 
-li {
+li {    
     float:left;
-    padding-right: 5%;
+    padding-top: 0px;
 }
 
-a:link, a:visited {
+li a {
+    color: ghostwhite;
+    display: block;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
     font-size: 125%;
     color: ghostwhite;
     text-decoration: none;
 }
 
 a:hover, a:active {
-    font-weight: bold;
     color: black;
+    background-color: lightgrey;
 }
 .github {
     padding-top: 30%;
+    text-align: center;
+
+}
+.links {
+    color: ghostwhite;
+    font-size: 150%;
     text-align: center;
 }

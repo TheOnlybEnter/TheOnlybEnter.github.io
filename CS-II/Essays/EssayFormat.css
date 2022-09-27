@@ -1,8 +1,12 @@
-body {
-    background-color: lightsteelblue;
+/* Please  */
+
+html, body {
+    height: 100%;
+    background-color: grey;
+    margin: 0px;
 }
 h1, h3 {
-    color: black;
+    color: ghostwhite;
     text-align: center;
 }
 
@@ -10,49 +14,60 @@ h1, h3 {
 .intro, .first, .second, .third, .fifth { /*for pragraphs*/
     word-spacing: 2px;
     font-size: 20px;    
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 5px;
-    text-indent: 5%;
+    text-indent: 100px;
     line-height: 120%;
-    color: black;
+    color: ghostwhite;
     float: left;
-    position: relative; /* keeps text in margin*/
+    position: relative;  /*keeps text in margin*/
 }
 
 /* links */
-ul {
+
+ ul.nav {
     list-style-type: none;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
 }
 
 li {
-    float:left;
-    padding-right: 5%;
+    float: left;
+    padding-top: 0px;
+}
+li a {
+    color: ghostwhite;
+    display: block;
+    padding: 30px;
+    text-align: left;
+    text-decoration: none;    
 }
 
-a:link, a:visited {
-    font-size: 110%;
-    color: black;
+a {
+    font-size: 125%;
+    color: ghostwhite;
     text-decoration: none;
 }
 
 a:hover, a:active {
-    font-weight: bold;
     color: ghostwhite;
+    background-color: lightgrey;
 }
 .sources {
     font-size: 110%;
     padding-top: 10px;
     text-align: center;
-    color: black;
+    color: ghostwhite;
 }
 
 .citation {
     font-size: 30px;
     padding-top: 50%;
     text-align: center;
-    color: black;
+    color: ghostwhite;
 }
 
 
