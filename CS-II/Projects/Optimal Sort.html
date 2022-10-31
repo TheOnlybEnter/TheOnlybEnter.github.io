@@ -9,29 +9,70 @@
   </head>
   <body>
 
-    
-    <ul>
-      <a href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/Projects%20Page.html"> Back to previous page </a>
-    </ul>
+    <div class="sticky">
+      <ul class="nav">
+	<li> <a  href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/index.html"> About Me</a> </li>
+	<li> <a  href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/PreviousClasses.html"> Former Courses </a> </li>
+	<li> <a  href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/Projects%20Page.html"> Projects </a > </li>
+	<li> <a  href="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/Essays.html"> Essays </a> </li>
+      </ul>
+    </div>
     <h1> Optimal Sort Project</h1>
 
-    <div class = "text"> With the help of <a href="https://github.com/AaronB432"> Aaron </a> we were able to make a algorithm for sorting words. So far this algorithm will take each element from the user and assign them to an array. The current algorithm requires for an array to split into two halves and be sorted using the classic bubble sort. Then we merge the two arrays by appending their elements to a new array, which then is also sorted. My next GOAL is to not split it into halves but rather by twos, so we might have 16 elements which will be split into two's resulting in 8 arrays. From there we merge and sort them which will eventually lead to one big array which is then printed. <p> </div>
+    <div class="text"> With the help of <a href="https://github.com/AaronB432"> Aaron </a> we were able to make a algorithm for sorting words. So far this algorithm will take each element from the user and assign them to an array. The current algorithm requires for an array to split into two halves and be sorted using the classic bubble sort. Then we merge the two arrays by appending their elements to a new array, which then is also sorted. My next GOAL is to not split it into halves but rather by twos, so we might have 16 elements which will be split into two's resulting in 8 arrays. From there we merge and sort them which will eventually lead to one big array which is then printed. <p> </div>
 
     <div class="images">
-      <img class="adjust" src="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/CS-II/Images/Sort.jpg" alt="My Sort Algorithm">
+      <img class="adjust" src="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/CS-II/Images/OptimalSort-FlowChart.png" alt="My Sort Algorithm">
       <div class="contain">
-	Here is the Flowchart, this algorithm currently takes in the steps of the current code and not the GOAL
+	Here is the Flowchart, this algorithm does make sense but the code isn't in line with it. This is because I didn't know my sorting algorithm needed Recursion - <b>function calls back to itself</b>
       </div>
     </div>
     
     <div class="images">
-      <img class="adjust" src="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/CS-II/Images/Result.png" alt="Results of Test">
+      <img class="adjust" src="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/CS-II/Images/mySort-Result.png" alt="Results of Test">
       <div class="contain">
-	Here's the test that I ran to show it's efficiency
+	Here's the test that I ran to show it's efficiency. Its really terrible for 1,000 words and in general should be faster.
       </div>
     </div>
+    
+    <h1>Sort Analysis </h1>
 
+    <h3> Hypothesis - Updated and brief explanation of graphs</h3>
+
+    <div class="text">
+      To start off each graph has 6 ordered, random, and reversed files for each sort. The first bar is 1 word and multiplies by 10 when you get to the next bar. Once it's at the 6th bar, the bar resets to 1 word but is a new text file. This can be seen in the horizontal axis names.
+      </div>
+    <div class="text">
+      From the beginning I had hypothesized that the major impact would be the size of the text file. This was true, but there was a new factor and that was the type of text file. This was true in Selection Sort because it managed to keep the 10,000 word text files reletively close in time, unlike the other algorithms. Neither are great sorting algorithms to conclude with. They thrive when the text file is sorted, which in a real life perspective is utterly useless. To end off, I disapprove these algorithms when sorting data because of their performance. 
+    </div>
+
+    
+    <div class="paragraphs"> <img class="TextNearImage" src="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/CS-II/Images/Bubble-Sort.png" alt="Results of Algorithms">      
+      For the Bubble Sort data it tends to be affected by the type of file and size. It did grow for each type of text file which isn't good. The whole point is to find a strong method for large amounts of data and this one fails all three times. It only worked well with files that contained little amounts of data.
+    </div>
+
+    <div class="paragraphs">
+      <img class="TextNearImage" src="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/CS-II/Images/Insertion-Sort.png" alt="Results of Algorithms">
+      Oddly enough for the already sorted text files, Insertion did well. It's ordered text file did way better than the next two types of text file. It has somewhat the same result as Bubble Sort with random and reversed text files which makes it inefficient. Why do I say this when it did well on ordered files? Because in the real world a ordered or near ordered file is rare to find. Not only that what we are really looking for in this project is a sorting algorithm that is reliable for sorting large amounts of data, and you'll notice that none of these are actually to useful.
+    </div>
+    
+
+
+    <div class="paragraphs">
+      <img class="TextNearImage" src="https://www.codermerlin.com/users/matthew-roman/Digital%20Portfolio/CS-II/Images/Selection-Sort.png" alt="Results of Algorithms">
+      Lastly, Selection Sort. This one is rather consistant but still lacking. It's almost a carbon copy of the Bubble Sort thus proving its inefficiency because Bubble Sort doesn't do to well. However, I would still use it over Bubble Sort because of it managed to finish under less time. Truly none of these did well and are all lacking in being an effiecient sorting method for large amounts of data. 
+    </div>
+
+
+    <div class="text">
+      LINKS
+    </div>
     <div class="mySources">
-      <a href="https://github.com/AaronB432/Sorting-Algorithms-"> Git Hub Repository of Sorting Algorithm</a>
-      <br> <a href="https://docs.google.com/spreadsheets/d/1Bbkero3jEO7L_H63nZlX6nf0ERrUVbfFmTyovi6MkSI/edit#gid=0"> Google Spreadsheets </a? <br>
+  <a href="https://github.com/AaronB432/Sorting-Algorithms-"> Git Hub Repository of Sorting Algorithm</a> 
+<br>  <a href="https://docs.google.com/spreadsheets/d/1Bbkero3jEO7L_H63nZlX6nf0ERrUVbfFmTyovi6MkSI/edit#gid=0"> Google Spreadsheets of mySort </a> <br>
+  <a href="https://docs.google.com/spreadsheets/d/1K0bKO2-reOcBUOUngo23hRT9TG3YUHKCxqatHciIQZs/edit#gid=1661186498"> Google Spreadsheets of Algorithms </a>
+<br>  <a href="https://github.com/TheOnlybEnter/BubbleSort"> Bubble Sort Git </a> <br>
+  <a href="https://github.com/TheOnlybEnter/Insertion-Sort"> Insertion Sort Git </a> 
+<br>  <a href="https://github.com/TheOnlybEnter/Selection-Sort"> Selection Sort Git </a> <br>
 </div>
+

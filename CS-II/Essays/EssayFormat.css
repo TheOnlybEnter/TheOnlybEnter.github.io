@@ -1,8 +1,7 @@
-/* Please  */
 
 html, body {
-    height: 100%;
-    background-color: grey;
+    min-height: 100%;
+    background-color: #a3cd9e;
     margin: 0px;
 }
 h1, h3 {
@@ -21,17 +20,20 @@ h1, h3 {
     line-height: 120%;
     color: ghostwhite;
     float: left;
-    position: relative;  /*keeps text in margin*/
 }
 
-/* links */
-
+/* handles navigation bar */
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
  ul.nav {
     list-style-type: none;
     overflow: hidden;
     margin: 0;
     padding: 0;
-    background-color: lightslategray;
+    background-color: #529471;
 }
 
 li {

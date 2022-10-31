@@ -1,0 +1,124 @@
+html, body {
+    min-height: 100%;
+    margin: 0px;
+}
+h1, h3 {
+    color: ghostwhite;
+    text-align: center;
+}
+
+/* handles cool animated background */
+
+body {
+    background: linear-gradient(-45deg,  #408EC6,  #7A2048, #1E2761);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;    
+}
+@keyframes gradient {
+    0% {
+	background-position: 0% 50%;
+    }
+    50% {
+	background-position: 100% 50%;
+    }
+    100% {
+	background-position: 0% 50%;
+    }
+}
+
+
+/* handles navigation bar */
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+ul.nav {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(-45deg, #408EC6,  #7A2048, #1E2761);
+}
+
+li {
+    float:left;
+    padding-top: 0px;
+}
+
+li a {
+    color: ghostwhite;
+    display: block;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    font-size: 125%;
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: black;
+    background-color: lightgrey;
+}
+.contain {
+    text-align: center;
+    padding: 10px ;
+    color: ghostwhite;
+}
+/* takes care of images and description */
+.images {
+    max-width: 20%;
+    background-image: linear-gradient(-45deg, #408EC6,  #7A2048, #1E2761);
+    margin-bottom: 5%;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.5%;
+}
+img.adjust {
+    width: 100%;
+    height: 50%;
+}
+
+/* handles wrapping the text next to the image, and normal div tags for text*/
+img.TextNearImage {
+    display: inline-block;
+    margin-right: 1%;
+    float: left;
+    margin-bottom: 2%;
+}
+
+
+.paragraphs {
+    display: inline-block;
+    padding-top: 3%;    
+    margin-left: 1%;
+    margin-right: 25%;
+    font-size: 130%;
+    color: ghostwhite;
+}
+
+.text {
+    word-spacing: 2px;
+    font-size: 120%;    
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+    line-height: 120%;
+    color: ghostwhite;
+    text-align: center ;
+}
+
+/* The links to items needed */
+.mySources {
+    
+    padding-top: 1%;
+    
+    text-align: center;
+}
+

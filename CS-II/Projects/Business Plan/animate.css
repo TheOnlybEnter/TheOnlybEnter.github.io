@@ -1,53 +1,33 @@
 html, body {
-    /* min height helps tells the browser that the animated gradient wont make an odd line. So in a sense the
-       the gradient is infinately long. */
-    min-height: 100%;
+    min-height:100%;
     margin: 0px;
 }
+
 body {
     background: linear-gradient(-45deg, #408EC6,  #7A2048, #1E2761);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;   
+    animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
     0% {
-	background-position: 0% 50%; 
+	background-position: 0% 50%;
     }
     50% {
-	background-position: 100% 50%; 
+	background-position: 100% 50%;
     }
     100% {
 	background-position: 0% 50%;
     }
 }
 
-/* handles titles and text */
-h1 {
-    color: ghostwhite;
-    text-align: center;
-}
-h2 {
-    color: ghostwhite;    
-}
-p {
-    margin-left: 10% ;
-    margin-right: 10% ;
-    font-size: 130%;
-    text-align: center;
-    color: ghostwhite;
-}
-.full-height {
-    height: 100%
-}
-/* handles navigation bar */
-
 .sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-}   
-ul.nav{
+}
+
+ul.nav {
     list-style-type: none;
     overflow: hidden;
     margin: 0;
@@ -55,7 +35,7 @@ ul.nav{
     background-image: linear-gradient(-45deg, #408EC6,  #7A2048, #1E2761);
 }
 
-li {    
+li {
     float:left;
     padding-top: 0px;
 }
@@ -78,13 +58,23 @@ a:hover, a:active {
     color: black;
     background-color: lightgrey;
 }
-.github {
-    padding-top: 30%;
+.contain {
     text-align: center;
+    padding: 10px ;
+    color: ghostwhite;
+}
+
+.text {
+    margin-right: 45%;
+    margin-bottom: 2%;
+    color: ghostwhite
+}
+h1 {
+    text-align: center;
+}
+h2, h1 {
+    color: ghostwhite;
 
 }
-.links {
-    color: ghostwhite;
-    font-size: 150%;
-    text-align: center;
-}
+
+
