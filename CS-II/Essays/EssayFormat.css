@@ -1,7 +1,7 @@
 html, body {
     min-height: 100%;
-
     margin: 0px;
+    font-family: 'Courier New', monospace;
 }
 h1, h3 {
     color: ghostwhite;
@@ -25,29 +25,31 @@ body {
     }
 }
 
-/* paragraph */
-.intro, .first, .second, .third, .fifth { /*for pragraphs*/
+
+
+/* paragraph  */ 
+.paragraph {
     word-spacing: 2px;
     font-size: 20px;    
     margin-left: 5%;
     margin-right: 5%;
     padding: 5px;
-    text-indent: 100px;
     line-height: 120%;
     color: ghostwhite;
-    float: left;
+    text-indent: 5%;
+
 }
 
 .sources {
     font-size: 110%;
-    padding-top: 10px;
+    padding-top: 3%;
     text-align: center;
     color: ghostwhite;
 }
 
 .citation {
     font-size: 30px;
-    padding-top: 50%;
+    padding-top: 15%;
     text-align: center;
     color: ghostwhite;
 }

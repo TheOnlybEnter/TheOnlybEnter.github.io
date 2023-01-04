@@ -1,8 +1,10 @@
 html, body {
     /* min height helps tells the browser that the animated gradient wont make an odd line. So in a sense the
        the gradient is infinately long. */
+    min-width: 100%;
     min-height: 100%;
     margin: 0px;
+    font-family: 'Courier New', monospace;
 }
 body {
     background: linear-gradient(-45deg, #408EC6,  #7A2048, #1E2761);
@@ -37,12 +39,10 @@ p {
     text-align: center;
     color: ghostwhite;
 }
-.full-height {
-    height: 100%
-}
+
 /* handles navigation bar */
 
-.sticky {
+div.sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -55,36 +55,43 @@ ul.nav{
     background-image: linear-gradient(-45deg, #408EC6,  #7A2048, #1E2761);
 }
 
-li {    
+ul.nav li {    
     float:left;
     padding-top: 0px;
 }
 
-li a {
+ul.nav li a {
     color: ghostwhite;
     display: block;
-    padding: 30px;
+    padding: 1vw;
     text-align: center;
     text-decoration: none;
 }
 
-a {
+ul.nav li a {
     font-size: 125%;
     color: ghostwhite;
     text-decoration: none;
 }
 
-a:hover, a:active {
+ul.nav li a:hover, a:active {
     color: black;
     background-color: lightgrey;
 }
-.github {
+/* links */
+div.github {
     padding-top: 30%;
-    text-align: center;
+    text-align: center;    
+}
 
+ul.links {
+    list-style-type: none;
+    
 }
-.links {
-    color: ghostwhite;
-    font-size: 150%;
-    text-align: center;
+ul.links li a {
+    text-decoration: none;
+    color: ghostwhite;    
+    font-size: 1.5em;
 }
+
+

@@ -3,10 +3,6 @@ html, body {
     margin: 0px;
     font-family: 'Courier New', monospace;
 }
-h1, h3 {
-    color: ghostwhite;
-    text-align: center;
-}
 
 /* handles cool animated background */
 
@@ -70,6 +66,19 @@ a:hover, a:active {
     padding: 10px ;
     color: ghostwhite;
 }
+
+/* handles all sorts of text with different sizes and fonts */
+.textOne {
+    text-align: center;
+    color: ghostwhite;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1, h3 {
+    color: ghostwhite;
+    text-align: center;
+}
+
 /* takes care of images and description */
 .images {
     max-width: 20%;
